@@ -15,8 +15,6 @@ import { Container, Content, Background } from './styles';
 
 import getValidationErros from '../../utils/getValidationErrors';
 
-console.log(2 << 1);
-
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
